@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import 'animate.css/animate.min.css';
 import "./App.css";
 import RepoCard from "./components/RepoCard";
 
