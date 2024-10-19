@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f9;
+  background-color: #121212; 
   margin: 0;
   padding: 0;
+  color: #E0E0E0; 
 }
 
 .app {
@@ -30,6 +31,8 @@ body {
   outline: none;
   width: 300px;
   transition: all 0.3s ease;
+  background-color: #333; 
+  color: #fff; 
 }
 
 .search-input:focus {
@@ -58,3 +61,4 @@ body {
   justify-content: center;
   gap: 20px;
 }
+
