@@ -1,0 +1,60 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+.fancy-title {
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+  color: #3498db;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #d35400;
+}
+
+.search-section {
+  margin-bottom: 40px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 2px solid #3498db;
+  outline: none;
+  width: 300px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #e74c3c;
+}
+
+.search-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #c0392b;
+}
+
+.repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

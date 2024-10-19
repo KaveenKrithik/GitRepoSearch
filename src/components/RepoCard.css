@@ -1,0 +1,41 @@
+.repo-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .repo-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .repo-name {
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+    color: #2ecc71;
+    margin-bottom: 10px;
+  }
+  
+  .repo-description {
+    font-family: 'Roboto', sans-serif;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .repo-stars {
+    color: #f1c40f;
+    font-weight: bold;
+  }
+  
+  .repo-link {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .repo-link:hover {
+    text-decoration: underline;
+  }
+  
